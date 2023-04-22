@@ -24,7 +24,7 @@ class Cowlibi2 {
             Grazing alibi = new Grazing(x,y,t);
             boolean before_works = false;
             boolean after_works = false;
-            // grazings.floor() and grazings.ceiling() have O(log N) time complexity because they uses a binary search tree
+            // grazings.floor() and grazings.ceiling() have O(log N) time complexity because they use a binary search tree
             if (alibi.time<=grazings.first().time) {
                 // cow's alibi occured before all grazings
         
