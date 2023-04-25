@@ -38,7 +38,7 @@ Output a single integer: the number of cows with alibis that prove their innocen
 
 [Full problem statement](http://www.usaco.org/index.php?page=viewproblem2&cpid=1303)
 
-- See Cowlibi2.java for the source code
+- See Cowlibi2.java for the source code.
 - I created a grazing class and implemented a custom comparator to sort all of the grazing events in a TreeSet based on time. I checked whether it was possible for each cow to reach the grazings that occured before and after her alibi.
 - My solution has O(N*logN) time complexity because I leveraged the floor() and ceiling() binary search TreeSet methods, which have O(logN) time complexity. This is necessary for the problem's time limit.
 - I used Java's BigDecimal class to prevent overflow errors.
